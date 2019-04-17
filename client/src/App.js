@@ -1,14 +1,25 @@
-import React, { Component } from 'react';
+// React Stuff
+import React, { Fragment } from 'react';
+import { Route, Switch } from 'react-router-dom';
+
+// Component Imports
+import Dashboard from './components/Dashboard';
+import Categories from './components/CategoryHome';
+
+// Other Imports
+import NoMatch from './components/NoMatch';
+
+// CSS
 import './App.css';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-       <h1>Hello</h1>
-      </div>
-    );
-  }
-}
+const App = () => (
+  <Fragment>
+    <Switch>
+      {/* <Route exact path="/dashboard" component={Dashboard} /> */}
+      <Route exact path="/categories" component={Categories} />
+      <Route component={NoMatch}/>
+    </Switch>
+  </Fragment>
+)
 
 export default App;
