@@ -4,9 +4,12 @@ import { Grid } from 'semantic-ui-react';
 class Dashboard extends React.Component {
   render() {
     return (
-      <Grid columns={2} stackable>
+      <Grid columns={2} stackable padded>
         <Grid.Column>
           <h1>Where the User info will go</h1>
+        </Grid.Column>
+        <Grid.Column>
+          <h1> Total challenges completed</h1>
         </Grid.Column>
       </Grid>
      
