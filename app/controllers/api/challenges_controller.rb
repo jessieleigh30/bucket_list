@@ -5,7 +5,7 @@ class Api::ChallengesController < ApplicationController
   end
 
   def create
-    
+
   end
   
   def update
@@ -16,5 +16,8 @@ class Api::ChallengesController < ApplicationController
 
   private
 
+  def challenge_params
+    params.require(:challenge).permit(:name, :complete)
+  end
 
 end
