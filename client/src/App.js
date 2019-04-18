@@ -10,7 +10,7 @@ import Categories from './components/CategoryHome';
 import NoMatch from './components/NoMatch';
 
 // CSS
-import './App.css';
+// import './App.css';
 
 const App = () => (
   <Fragment>
