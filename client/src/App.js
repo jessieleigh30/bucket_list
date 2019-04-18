@@ -5,6 +5,7 @@ import { Route, Switch } from 'react-router-dom';
 // Component Imports
 import Dashboard from './components/Dashboard';
 import Categories from './components/CategoryHome';
+import Navbar from './components/Navbar';
 
 // Other Imports
 import NoMatch from './components/NoMatch';
@@ -14,6 +15,7 @@ import NoMatch from './components/NoMatch';
 
 const App = () => (
   <Fragment>
+    <Navbar/>
     <Switch>
       <Route exact path="/" component={Dashboard} />
       <Route exact path="/categories" component={Categories} />

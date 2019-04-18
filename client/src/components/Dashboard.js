@@ -11,7 +11,7 @@ class Dashboard extends React.Component {
         <Grid.Column>
           <Card style={styles.card}>
             <Header1 style={{marginTop:"50px"}}>User Name</Header1>
-            <Header2>City/State</Header2>
+            <Header2>Utah's Ultimate Bucket List</Header2>
           </Card>
         </Grid.Column>
 
