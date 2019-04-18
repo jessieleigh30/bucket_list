@@ -25,6 +25,7 @@ class Navbar extends React.Component {
             id= 'login'
             name='login'
             active={location.pathname==='/login'}
+            style={styles.font}
             />
           </Link>
           <Link to='register'>
@@ -32,6 +33,7 @@ class Navbar extends React.Component {
               id='register'
               name='register'
               active={location.pathname ==='/register'}
+              style={styles.font}
               />
           </Link>
         </Menu.Menu>
