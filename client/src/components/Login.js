@@ -7,6 +7,17 @@ import { Form, Button} from 'semantic-ui-react';
 class Login extends React.Component {
   state = { email:'', password: ''}
 
+  handleSubmit = (e) => {
+    e.preventDefault();
+    const { email, password } = this.state;
+    this.props.auth.handleLogin({ email, password }, this.props.history);
+  }
+
+  handleChange = (e) => {
+   const { name, value } = e.target;
+   this.setState({ [name]: value})
+  }
+
   render(){
     const { email, password} = this.state;
     return(

@@ -9,7 +9,7 @@ import Navbar from './components/Navbar';
 
 // Other Imports
 import NoMatch from './components/NoMatch';
-import Login from './components/Login'
+import Login from './components/Login';
 
 // CSS
 // import './App.css';
