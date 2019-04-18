@@ -15,7 +15,7 @@ import NoMatch from './components/NoMatch';
 const App = () => (
   <Fragment>
     <Switch>
-      <Route exact path="/dashboard" component={Dashboard} />
+      <Route exact path="/" component={Dashboard} />
       <Route exact path="/categories" component={Categories} />
       <Route component={NoMatch}/>
     </Switch>
