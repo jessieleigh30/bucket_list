@@ -31,6 +31,8 @@ const StyledSquare = styled(Square)`
   width: 100px;
   height: 50px;
   background: #ea463e;
+  position: absolute;
+  // mess wiht position absolute to move to top
 `;
 
 const Container = styled.div`
