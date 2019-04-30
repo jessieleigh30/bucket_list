@@ -7,10 +7,12 @@ import Dashboard from './components/Dashboard';
 import Categories from './components/CategoryHome';
 import Navbar from './components/Navbar';
 
+
 // Other Imports
 import NoMatch from './components/NoMatch';
 import Login from './components/Login';
 import Register from './components/Register';
+
 
 // CSS
 // import './App.css';

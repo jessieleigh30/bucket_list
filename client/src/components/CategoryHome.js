@@ -1,4 +1,5 @@
 import React from 'react';
+import ChallengeSquare from './Square';
 // import axios from 'axios';
 
 class CategoryHome extends React.Component {
@@ -8,14 +9,21 @@ class CategoryHome extends React.Component {
     // axios.get("")
   }
 
+
+
+
   render() {
     return (
       <div>
         Different Categories
-        { this.renderCategories() }
+        {this.renderCategories()}
+        <div>
+          <ChallengeSquare  />
+        </div>
       </div>
+
     )
   }
-} 
+}
 
 export default CategoryHome;
